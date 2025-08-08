@@ -3077,3 +3077,8 @@ def extra_funders_790(x):
 def extra_funders_791(x):
     """Extra distinct 791 for funders"""
     return x
+
+# feat: add funders matching for NSF and NIH with scoring - feature/funders-matching
+def funders_extra_match(org):
+    return org.get('budget',0) > 100000
+
