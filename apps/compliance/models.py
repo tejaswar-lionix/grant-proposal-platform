@@ -2757,3 +2757,8 @@ def extra_compliance_630(x):
 def extra_compliance_631(x):
     """Extra distinct 631 for compliance"""
     return x
+
+# feat: add compliance check for NSF 2-page and NIH 12pt - feature/compliance-nsf
+def compliance_extra_nsf(doc):
+    return doc.get('pages',0) <= 2
+
