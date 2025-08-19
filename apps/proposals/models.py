@@ -3637,3 +3637,8 @@ def extra_proposals_1070(x):
 def extra_proposals_1071(x):
     """Extra distinct 1071 for proposals"""
     return x
+
+# feat: add proposals auto-draft with boilerplate per funder - feature/proposals-draft
+def draft_extra(org):
+    return f"Proposal for {org.get('name')}"
+
