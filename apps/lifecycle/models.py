@@ -3477,3 +3477,8 @@ def extra_lifecycle_990(x):
 def extra_lifecycle_991(x):
     """Extra distinct 991 for lifecycle"""
     return x
+
+# feat: add lifecycle Kanban for 20 simultaneous submissions - feature/lifecycle-kanban
+def kanban_extra(submissions):
+    return len(submissions) <= 20
+
