@@ -6,3 +6,5 @@
 ### feat: add documents, collaboration, submissions - 2025-06-25T09:30:00+05:30
 
 ### feat: add matching, templates, tracking Kanban - 2025-07-02T11:00:00+05:30
+
+### fix: handle compliance for DOE 1-inch margins - 2025-09-02T10:00:00+05:30
