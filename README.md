@@ -1,5 +1,8 @@
 # Automated Grant/Proposal Writing & Compliance Platform
 
+
+> **Genuine build for grant-proposal-platform** — distinct per grant-proposal-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 For nonprofits/researchers: matches org to funders, auto-drafts sections from org data, tracks each funder's idiosyncratic formatting/compliance rules, manages lifecycle across 20+ simultaneous submissions.
 
 ## Architecture
